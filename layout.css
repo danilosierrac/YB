@@ -35,10 +35,10 @@ a.NSFW:visited {color: #ffffff}
     text-align: center;
 }
 
-.List {
+.List, li, p {
     color: #ffffff;
     font-family: 'Helvetica', 'Arial', sans-serif;
-    font-size: 30pt;
+    font-size: 2em;
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
@@ -107,9 +107,8 @@ video {
 
 
 @media screen and (max-width: 767px) {
-    .List {
+    .List, .title {
         text-align: left;
-        font-size: 24pt;
 
     }
 }
