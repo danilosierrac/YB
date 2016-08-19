@@ -152,3 +152,8 @@ video {
   background-size: cover;
   transition: 1s opacity;
 }
+
+@media (max-width: 600px) {
+  video {
+    display: none;
+  }
