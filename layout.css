@@ -68,7 +68,7 @@ a.NSFW:visited {color: #ffffff}
 
 .Title {
     color: #ffffff;
-    font-size: 70pt;
+    font-size: 7vw;
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
@@ -88,7 +88,7 @@ a.NSFW:visited {color: #ffffff}
 .List, p {
     color: #ffffff;
     font-family: 'Helvetica', 'Arial', sans-serif;
-    font-size: 40pt;
+    font-size: 4vw;
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
@@ -156,5 +156,13 @@ video {
 @media only screen and (max-width: 600px) {
     video { 
         display: none;
-}
+        }
+
+    .Title {
+        font-size: 40pt;
+    }
+
+    .List
+        font-size: 20pt;
+    }
   }
