@@ -1,0 +1,103 @@
+body {
+    background: #000000;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+a.Top:link {color: #ffffff; text-decoration: underline}
+a.Top:visited {color: #ffffff; text-decoration: underline}
+
+a.Second:link {color: #ffffff; text-decoration: underline}
+a.Second:visited {color: #ffffff; text-decoration: underline}
+
+a.Bottom:link {color: #ffffff}
+a.Bottom:visited {color: #ffffff}
+
+a.NSFW:link {color: #ffffff}
+a.NSFW:visited {color: #ffffff}
+
+.Title {
+    color: #ffffff;
+    font-size: 7vmax;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: uppercase;
+}
+
+.List, p {
+    color: #ffffff;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 4vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    letter-spacing: 1;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: uppercase;
+}
+.inline-b-item {
+  display: inline-block;
+}
+}
+
+.Disclaimer {
+    color: #ffffff;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: x-small;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    letter-spacing: 1;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: lowercase;
+}
+
+.About {
+    font-size: x-small;
+    font-family: 'helvetica';
+    text-transform: uppercase;
+    
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
