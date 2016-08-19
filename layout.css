@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    text-shadow: 2px 2px 5px grey;
+/*    text-shadow: 2px 2px 5px grey;*/
 }
 ol, ul {
     list-style: none;
@@ -55,11 +55,11 @@ body {
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
-a.Top:link {color: #ffffff; text-decoration: underline}
-a.Top:visited {color: #ffffff; text-decoration: underline}
+a.Top:link {color: #ffffff; text-decoration: none}
+a.Top:visited {color: #ffffff; text-decoration: none}
 
-a.Second:link {color: #ffffff; text-decoration: underline}
-a.Second:visited {color: #ffffff; text-decoration: underline}
+a.Second:link {color: #ffffff; text-decoration: none}
+a.Second:visited {color: #ffffff; text-decoration: none}
 
 a.Bottom:link {color: #ffffff}
 a.Bottom:visited {color: #ffffff}
@@ -162,11 +162,11 @@ video {
 @media only screen and (max-width: 750px) {
     video { 
         display: none;
-        background: #000000
         }
 
     .Title {
         font-size: 3.0em;
+
     }
 
     .List {
@@ -213,7 +213,6 @@ video {
     word-break:normal;}
 
 .tg .tg-yw4l{vertical-align:top}
-
 @media screen and (max-width: 767px) {
 
 .tg {width: auto !important;}
