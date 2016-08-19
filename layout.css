@@ -69,7 +69,7 @@ a.NSFW:visited {color: #ffffff}
 
 .Title {
     color: #ffffff;
-    font-size: 7vw;
+    font-size: 5vw;
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
@@ -89,7 +89,7 @@ a.NSFW:visited {color: #ffffff}
 .List, p {
     color: #ffffff;
     font-family: 'Helvetica', 'Arial', sans-serif;
-    font-size: 7vw;
+    font-size: 3vw;
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
@@ -101,10 +101,11 @@ a.NSFW:visited {color: #ffffff}
     opacity: 1.00;
     padding-bottom: 0px;
     padding-top: 0px;
-    text-align: left;
+    text-align: justify;
     text-decoration: none;
     text-indent: 0px;
     text-transform: uppercase;
+    padding-left: 20px;
 }
 .inline-b-item {
   display: inline-block;
@@ -136,6 +137,9 @@ a.NSFW:visited {color: #ffffff}
     font-size: x-small;
     font-family: 'helvetica';
     text-transform: uppercase;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: center;
     
 }
 
@@ -158,13 +162,64 @@ video {
 @media only screen and (max-width: 750px) {
     video { 
         display: none;
+        background: #000000
         }
-/*
+
     .Title {
         font-size: 3.0em;
     }
 
     .List {
-        font-size: 1.2em;
+        font-size: 4em;
     }
-  }*/
+  }
+
+.tg  {
+    color: #ffffff;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 3vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    letter-spacing: 1;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    border-collapse:collapse;
+    border-spacing:0;
+    margin:30px auto;}
+
+.tg td{
+        padding-right:30px;
+        border-style:solid;
+        border-width:0px;
+        overflow:hidden;
+        word-break:normal;
+    }
+
+.tg th{
+    border-style:solid;
+    border-width:0px;
+    overflow:hidden;
+    word-break:normal;}
+
+.tg .tg-yw4l{vertical-align:top}
+
+@media screen and (max-width: 767px) {
+
+.tg {width: auto !important;}
+.tg col {width: auto !important;}
+.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}
+
+
+
+
