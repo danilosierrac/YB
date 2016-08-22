@@ -1,3 +1,4 @@
+<!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Yung Beef Fashion Tour</title>
 
 <head>
@@ -105,7 +106,10 @@ LARGA VIDA YUNG BEEF
 <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/danilosierrac/YB/gh-pages/layout.css">
 </head>
 <body>
-
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
 <img src="https://cdn.rawgit.com/danilosierrac/YB/gh-pages/title.gif" alt="Yung Beef Fashion Tour">
 <br>
 <br>
@@ -128,6 +132,18 @@ LARGA VIDA YUNG BEEF
 			<a href="https://twitter.com/secoweedcodein" target="_blank">Twitter</a> | <a href="https://www.instagram.com/ricosuaveyatusabe/" target="_blank">Instagram</a> | <a href="https://www.youtube.com/user/YUNGBEEFPXXRGVNG" target="_blank">Youtube</a> | <a href="https://www.facebook.com/yungbeeflospobres/" target="_blank">Facebook</a>	
 		</p>
 	</div>
+<!-- jQuery Plugin -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
 
+<!-- Preloader -->
+<script type="text/javascript">
+    //<![CDATA[
+        $(window).load(function() { // makes sure the whole site is loaded
+            $('#status').fadeOut(); // will first fade out the loading animation
+            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+            $('body').delay(350).css({'overflow':'visible'});
+        })
+    //]]>
+</script>
 </body>
 </html>
