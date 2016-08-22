@@ -5,12 +5,13 @@ body {
 }
 
 img {
+    padding-top: 150px;
     vertical-align: center;
     max-width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 a {color: #ffffff; text-decoration: underline}
@@ -39,7 +40,7 @@ a {color: #ffffff; text-decoration: underline}
 .List, li, p {
     color: #ffffff;
     font-family: 'Helvetica', 'Arial', sans-serif;
-    font-size: 60px;
+    font-size: 40px;
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
