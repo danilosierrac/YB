@@ -33,13 +33,13 @@ a {color: #ffffff; text-decoration: underline}
     text-decoration: none;
     text-indent: 0px;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
 }
 
 .List, li, p {
     color: #ffffff;
     font-family: 'Helvetica', 'Arial', sans-serif;
-    font-size: 2em;
+    font-size: 60px;
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
