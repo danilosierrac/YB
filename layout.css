@@ -1,19 +1,20 @@
 body {
     background: #000000;
+    background-image: url("background.jpg");
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
-a.Top:link {color: #ffffff; text-decoration: underline}
-a.Top:visited {color: #ffffff; text-decoration: underline}
+img {
+    vertical-align: center;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 
-a.Second:link {color: #ffffff; text-decoration: underline}
-a.Second:visited {color: #ffffff; text-decoration: underline}
+a {color: #ffffff; text-decoration: underline}
 
-a.Bottom:link {color: #ffffff}
-a.Bottom:visited {color: #ffffff}
-
-a.NSFW:link {color: #ffffff}
-a.NSFW:visited {color: #ffffff}
 
 .Title {
     color: #ffffff;
@@ -90,26 +91,8 @@ a.NSFW:visited {color: #ffffff}
     
 }
 
-video { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-}
-
-
 @media screen and (max-width: 767px) {
     .List, .title {
         text-align: left;
-
     }
-}
 }
