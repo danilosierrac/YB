@@ -50,8 +50,8 @@ a {color: #ffffff; text-decoration: underline}
     margin-right: 2px;
     margin-top: 2px;
     opacity: 1.00;
-    padding-bottom: 0px;
-    padding-top: 0px;
+    padding-bottom: 50px;
+    padding-top: 20px;
     text-align: left;
     text-decoration: none;
     text-indent: 0px;
@@ -59,9 +59,7 @@ a {color: #ffffff; text-decoration: underline}
     text-align: center;
 
 }
-.inline-b-item {
-  display: inline-block;
-}
+
 }
 
 .Disclaimer {
@@ -78,7 +76,7 @@ a {color: #ffffff; text-decoration: underline}
     margin-top: 2px;
     opacity: 1.00;
     padding-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 20px;
     text-align: left;
     text-decoration: none;
     text-indent: 0px;
